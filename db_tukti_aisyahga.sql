@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 14, 2023 at 11:50 AM
+-- Generation Time: Aug 14, 2023 at 12:08 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.32
 
@@ -61,7 +61,7 @@ CREATE TABLE `suratkeluar_aisyahga` (
 --
 
 INSERT INTO `suratkeluar_aisyahga` (`no_surat`, `penerima`, `waktu`, `tempat`, `perihal`, `pengesah`) VALUES
-('357/PL16/KL', 'Pemko', '10/12/2019', 'Banjarmasin', 'Kegiatan kunjungan dan pengajuan', 'Direktur');
+('357/PL16/KL', 'Pemko', '10/12/2019', 'Banjarmasin', 'Kegiatan kunjungan dan pengajuan', 'Direktur ');
 
 -- --------------------------------------------------------
 
@@ -83,9 +83,8 @@ CREATE TABLE `suratmasuk_aisyahga` (
 --
 
 INSERT INTO `suratmasuk_aisyahga` (`no_surat`, `pengirim`, `waktu`, `tempat`, `lampiran`, `perihal`) VALUES
-('001/UNUKASE', 'Univ Kalimantan Selatan', '07/07/2019', 'Banjarmasin', 0, 'Kegiatan Kuliah Umum'),
-('041/PAMA/HD', 'PT.PAMA', '10/10/2019', 'Banjarmasin', 1, 'Informasi Lowongan Kerja'),
-('123/KH', 'Budi', '14/08/2023', 'Banjarbaru', 0, 'Buatkan surat');
+('123/KH', 'Budi', '14/08/2023', 'Banjarmasin', 0, 'Buatkan surat'),
+('124/LL', 'Hesa', '12/08/2023', 'Banjarmasin', 0, 'Tes Surat Masuk');
 
 --
 -- Indexes for dumped tables
